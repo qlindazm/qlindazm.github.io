@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script>
+	$(document).ready(function(){
+		$(window).scroll(function(){
+			if ($(window).scrollTop()>=142.4){
+				$("#litlbanner").css({"position":"fixed","top":"0","left":"38.15%","background-color":"white"});
+			}
+			else{
+				$("#litlbanner").css({"position":"absolute","left":"0"});
+			}
+		});
+	});
+	</script>
+</head>
+<body>
+	<div id="banner_hp">
+		<div id="header_hp">
+			<a href="index.html"><img src="images/logo1.jpg" alt=""></a>
+			<div id="form">Advertising investment</div>
+		</div>
+	</div>
+	<div id="container_hp">
+		<div id="infor_hp">
+			<div id="infor_sp"><img src="images/face.jpg" alt="">
+			</div>
+			<p>Li zimu</p>
+			<p>From Shanxi</p>
+			<p>Clever</p>
+			<hr><br>
+			<p>Started at 27 Nov 2016</p>
+		</div>
+		<div id="tip"><h5>Tips:</h5><p>In fact,I just don't know what to post..enn..you know.So,Im so sorry for its chaotic order.</p></div>
+		<div id="main_hp">
+			<div id="litlbanner">
+				<a id="Overview" href="Overview.html">Overview</a>
+				<a id="Work" href="Work.html" style="border-bottom: 2px solid #099;color:black">Work</a>
+				<a id="Hometown" href="Hometown.html">Hometown</a>
+				<a id="logining" href="Logining.html">10:05</a>
+			</div>
+			<p>Oh work..In fact,so many things about our internet confuse me.Such as RUBYONRAILS..or the terminal,jquery,and jekyll?</p>
+		</div>
+	</div>
+	<div id="footer"><hr><br>©  Beijing Forestry University</div>
+</body>
+</html>

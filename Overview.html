@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script>
+	$(document).ready(function(){
+		$(window).scroll(function(){
+			if ($(window).scrollTop()>=142.4){
+				$("#litlbanner").css({"position":"fixed","top":"0","left":"38.15%","background-color":"white"});
+			}
+			else{
+				$("#litlbanner").css({"position":"absolute","left":"0"});
+			}
+		});
+		$(".push_img_1").click(function(){
+			$("#img_1").toggle();	
+		});
+		$(".push_img_2").click(function(){
+			$("#img_2").toggle();	
+		});
+		$(".push_img_3").click(function(){
+			$("#img_3").toggle();	
+		});
+		$(".push_img_4").click(function(){
+			$("#img_4").toggle();	
+		});
+		$(".push_img_5").click(function(){
+			$("#img_5").toggle();	
+		});
+		$(".push_img_6").click(function(){
+			$("#img_6").toggle();	
+		});
+		$(".push_img_7").click(function(){
+			$("#img_7").toggle();	
+		});
+	});
+	</script>
+</head>
+<body>
+	<div id="banner_hp">
+		<div id="header_hp">
+			<a href="index.html"><img src="images/logo1.jpg" alt=""></a>
+			<div id="form">Advertising investment</div>
+		</div>
+	</div>
+	<div id="container_hp">
+		<div id="infor_hp">
+			<div id="infor_sp"><img src="images/face.jpg" alt="">
+			</div>
+			<p>Li zimu</p>
+			<p>From Shanxi</p>
+			<p>Clever</p>
+			<hr><br>
+			<p>Started at 27 Nov 2016</p>
+		</div>
+		<div id="tip"><h5>Tips:</h5><p>In fact,I just don't know what to post..enn..you know.So,Im so sorry for its chaotic order.</p></div>
+		<div id="main_hp">
+			<div id="litlbanner">
+				<a id="Overview" href="Overview.html" style="border-bottom: 2px solid #099;color:black">Overview</a>
+				<a id="Work" href="Work.html">Work</a>
+				<a id="Hometown" href="Hometown.html">Hometown</a>
+				<a id="logining" href="Logining.html">10:05</a>
+			</div>
+			<div class="push">
+				<div class="push_txt">
+					<p>哈哈有爱的老师开直播讲题。</p></div>
+				<div class="push_tim">
+					<p>2016.12.20 21:31 </p>
+					<div class="push_img push_img_3">
+					<img src="images/zan1.gif" alt="" id="img_3">
+					<img src="images/zan2.gif" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="push" style="margin-top:30px;">
+				<div class="push_txt">
+					<p>做网页做网页，期末大网站就要交了！！</p></div>
+				<div class="push_tim">
+					<p>2016.12.20 20:40</p>
+					<div class="push_img push_img_1">
+					<img src="images/zan2.gif" alt="" id="img_1">
+					<img src="images/zan1.gif" alt="" >
+					</div>
+				</div>
+			</div>
+			<div class="push">
+				<div class="push_txt">
+					<p>结业汇演终于结束了，二等奖也是比较满意，毕竟阉割版的剧本笑点不足的硬伤 ，另外活跃气氛不成功也挺尴尬。</p></div>
+				<div class="push_tim">
+					<p>2016.12.16 </p>
+					<div class="push_img push_img_2">
+					<img src="images/zan1.gif" alt="" id="img_2">
+					<img src="images/zan2.gif" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="push">
+				<div class="push_txt">
+					<p>一群人坐两小时车跑到老年公寓，一个老奶奶不停念叨，珍惜时间啊年轻人，别让她跑咯。。。另外义工团团长也很有感染力。</p></div>
+				<div class="push_tim">
+					<p>2016.11.27 </p>
+					<div class="push_img push_img_4">
+					<img src="images/zan1.gif" alt="" id="img_4">
+					<img src="images/zan2.gif" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="push">
+				<div class="push_txt">
+					<p>川普上台美元涨势如虹，黄金没机会了吗</p></div>
+				<div class="push_tim">
+					<p>2016.11.8 </p>
+					<div class="push_img push_img_5">
+					<img src="images/zan1.gif" alt="" id="img_5">
+					<img src="images/zan2.gif" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="push">
+				<div class="push_txt">
+					<p>拔了个第三还不错。</p></div>
+				<div class="push_tim">
+					<p>2016.11.8 </p>
+					<div class="push_img push_img_6">
+					<img src="images/zan1.gif" alt="" id="img_6">
+					<img src="images/zan2.gif" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="push">
+				<div class="push_txt">
+					<p>新生报道人好多。</p></div>
+				<div class="push_tim">
+					<p>2016.9.3 </p>
+					<div class="push_img push_img_7">
+					<img src="images/zan1.gif" alt="" id="img_7">
+					<img src="images/zan2.gif" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer"><hr><br>©  Beijing Forestry University</div>
+</body>
+</html>
